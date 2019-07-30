@@ -12,8 +12,8 @@ print('\n')
 
 #Calculate the area of a triangle
 class Triangle:
-    def __init__(self, base, hight):
-        self.base = base
+    def __init__(self, base, hight): #this is constructor
+        self.base = base 
         self.hight = hight
 
     def calculate_area(self):
